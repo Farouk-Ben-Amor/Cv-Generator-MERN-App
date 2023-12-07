@@ -1,0 +1,30 @@
+.layout{
+    height: 100vh;
+    padding: 20px 50px;   
+}
+.header{
+    height: 10%;
+    background-color: rgb(7, 65, 112) !important;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header h1{
+    color: white ;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header button{
+    border: 1px solid white !important;
+    color: #ffffff;
+}
+.content{
+    height: 87%;
+    border: 1px solid rgb(173, 170, 170);
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(129, 127, 127);
+    padding: 10px;
+}

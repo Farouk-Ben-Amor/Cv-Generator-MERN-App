@@ -3,3 +3,45 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif !important;
 }
+button{
+    background-color: rgb(7, 65, 112) !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    color: white !important;
+}
+input , textarea{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgb(187, 183, 183) !important;
+}
+
+input:focus , textarea:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.ant-spin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+.ant-btn-dashed{
+    background: rgb(7, 65, 112) !important;
+    color:  white !important;
+    border: 1px dashed rgb(5, 53, 92) !important;
+    width: 200px !important;
+}
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+}
+.back-btn{
+    background-color: #fff !important;
+    color: rgb(7, 65, 112) !important;
+    border: 1px solid rgb(7, 65, 112) !important;
+
+}
+
