@@ -1,6 +1,9 @@
 import { Dropdown, Button } from "antd";
 import "../resources/defaultlayout.css";
 import { Link, useNavigate } from "react-router-dom";
+import { UserOutlined } from '@ant-design/icons';
+
+
 function DefaultLayout(props) {
   const user = JSON.parse(localStorage.getItem("cvgenerator-user"));
   const navigate = useNavigate();
@@ -34,7 +37,7 @@ function DefaultLayout(props) {
       <div className='header'>
         <h1 onClick={()=> navigate('/home')} style={{cursor:'pointer'}} >CV Generator</h1>
         <Dropdown menu={{ items }} placement='bottomLeft'>
-          <Button> {user.username} </Button>
+          <Button icon={<UserOutlined/>} > {user.username} </Button>
         </Dropdown>
       </div>
       <div className='content' style={{overflow:'scroll'}} >{props.children}</div>

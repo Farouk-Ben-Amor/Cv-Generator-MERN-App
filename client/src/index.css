@@ -4,7 +4,7 @@ body{
     font-family: 'Montserrat', sans-serif !important;
 }
 button{
-    background-color: rgb(7, 65, 112) !important;
+    background-color: rgb(3, 33, 58) !important;
     box-shadow: none !important;
     outline: none !important;
     border: none !important;
@@ -28,9 +28,9 @@ input:focus , textarea:focus{
     z-index: 10;
 }
 .ant-btn-dashed{
-    background: rgb(7, 65, 112) !important;
+    background: rgb(3, 33, 58) !important;
     color:  white !important;
-    border: 1px dashed rgb(5, 53, 92) !important;
+    border: 1px dashed rgb(4, 24, 41) !important;
     width: 200px !important;
 }
 .divider{
@@ -40,8 +40,8 @@ input:focus , textarea:focus{
 }
 .back-btn{
     background-color: #fff !important;
-    color: rgb(7, 65, 112) !important;
-    border: 1px solid rgb(7, 65, 112) !important;
+    color: rgb(3, 33, 58) !important;
+    border: 1px solid rgb(4, 24, 41) !important;
 
 }
 

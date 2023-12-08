@@ -41,8 +41,8 @@ function Register() {
         <Form.Item name='cpassword' label='Confirm password'>
           <Input type='password' />
         </Form.Item>
-        <div className="d-flex align-items-center justify-content-center ">
-          <Link to='/login' >Click here to sign in</Link>
+        <div className="d-flex align-items-center justify-content-between ">
+        <Link to='/login' className="cl" >Click here to sign in</Link>
         <Button type='primary' htmlType='submit'>
           Sign Up
         </Button>

@@ -4,7 +4,7 @@
 }
 .header{
     height: 10%;
-    background-color: rgb(7, 65, 112) !important;
+    background-color: rgb(3, 33, 58) !important;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@
 .header button{
     border: 1px solid white !important;
     color: #ffffff;
+    background-color: rgb(5, 29, 51) !important;;
 }
 .content{
     height: 87%;

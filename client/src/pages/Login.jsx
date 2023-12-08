@@ -37,8 +37,8 @@ function Login() {
         <Form.Item name='password' label='Password'>
           <Input type='password' />
         </Form.Item>
-        <div className='d-flex align-items-center justify-content-center '>
-          <Link to='/register'>Click here to sign up</Link>
+        <div className='d-flex align-items-center justify-content-between '>
+          <Link to='/register' className="cl">Click here to sign up</Link>
           <Button type='primary' htmlType='submit'>
             Sign In
           </Button>
