@@ -1,6 +1,7 @@
+import dotenv from 'dotenv'
 import mongoose from 'mongoose';
-
-const URL = 'mongodb+srv://faruk:farouk1919@react-node-crud.xj71hng.mongodb.net/cv-generator';
+dotenv.config
+const URL = process.env.MONGODB_URL
 mongoose.connect(URL);
 
 const dbConnection = mongoose.connection;
